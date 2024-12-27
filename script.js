@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Styling elemen dengan class "kutip"
-    const kutipElements = document.getElementsByClassName("kutip");
-    for (let element of kutipElements) {
+    const kutip = document.getElementsByClassName("kutip");
+    for (let element of kutip) {
         element.style.color = "green";
         element.style.backgroundColor = "black";
     }
